@@ -6,7 +6,24 @@
 .reveal h6 {
   text-transform: none;
 }
+
+.reveal h3 {
+  color: cyan;
+}
+
+
 #cyan
 {
   color:cyan
+}
+
+.td {
+  text-align: center;
+}
+
+.daTable{
+border: 2px;
+border-color: blue;
+padding: 2px;
+font-family: Times New Roman, serif;
 }

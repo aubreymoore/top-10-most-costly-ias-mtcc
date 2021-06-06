@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 
 		<link rel="stylesheet" href="custom.css">
+
 	</head>
 	<body>
 		<div class="reveal">
@@ -21,122 +22,114 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 
+
 <section data-markdown>
 ## How Bad is Guam's Invasive Species Problem?
-#### A ~~Global~~ Pacific-wide Perspective
-**[Aubrey Moore](mailto://aubreymoore@triton.uog.edu), University of Guam**
+### A ~~Global~~ Pacific-wide Perspective
+**[Aubrey Moore](mailto://aubreymoore@triton.uog.edu) University of Guam**
 </section>
 
-</section>
 
+<!-- SLIDE HIDDEN
 <section data-markdown data-audio-src="audio/slide01.wav">
 #### Top 100 World's Worst Invasive Species
 #### xx (xx%) recorded from Guam
 ![top100](images/guamtop100-5.5i.svg)
 </section>
+-->
+
 
 <section data-markdown data-audio-src="audio/slide02.wav">
-#### Top 10 World's Most Costly Invasive Species
-#### 5 (50%) recorded from Guam
+### Top 10 World's Most Costly Invasive Species
 ![plot](images/5-annotated-5.5i.svg)
 </section>
 
-<section data-audio-src="">
-<h3 id="cyan">How Does Guam Compare to Other Pacific Islands?</h3>
 
+<section data-audio-src="">
+<h3>How Does Guam Compare to Other Pacific Islands?</h3>
 <p style="text-align:left;">We can search islands for records of the <span id="cyan">Top 10 Most Costly IAS</span> on other Pacific islands using the Biodiversity Information Facility (<span id="cyan">GBIF</span>) database.</p>
 </section>
 
+
 <section data-audio-src="">
-<h3 id="cyan">How Can We Search GBIF?</h3>
+<h3>How Can We Search GBIF?</h3>
 <p style="text-align:left">
 from pygbif import occurrences as occ<br>
 occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span>, limit=0)['count']<br>
 </p>
 </section>
 
+
 <section data-audio-src="">
-<h3 id="cyan">Which Pacific Islands Should We Search?</h3>
+<h3>Which Pacific Islands Should We Search?</h3>
 </section>
 
 
-
-
-
 <section data-markdown data-audio-src="audio/slide02.wav">
+### Results Summary
 | No. of Taxa from the Top 10 Most Costly IAS Recorded in GBIF | No. of Islands |
-|:------------------------------------------:|:--------------:|
-|                      5                     |        1       |
-|                      3                     |        9       |
-|                      2                     |       26       |
-|                      1                     |       42       |
-|                      0                     |       71       |
+|:------------------------------------------------------------:|:--------------:|
+|                      5                                       |        1       |
+|                      3                                       |        9       |
+|                      2                                       |       26       |
+|                      1                                       |       42       |
+|                      0                                       |       71       |
 </section>
 
-<section data-markdown data-audio-src="audio/slide02.wav">
-Islands with 5 of the 10 Most Costly IAS Recorded in GBIF
 
-* Hawaiian Islands
-	* O'ahu (*Aedes, Felis catus, Coptotermes formosanus, Boiga irregularis, Rattus/Mus*)
+<section data-audio-src="audio/slide02.wav">
+<h3>Islands with 5 of the 10 Most Costly IAS Recorded in GBIF</h3>
+<ul>
+	<li>Hawaiian Islands</li>
+	<ul>
+		<li><span id="cyan">O'ahu</span> (<em>Aedes, Felis catus, Coptotermes formosanus, Boiga irregularis, Rattus/Mus</em>)</li>
+	</ul>
+<ul>
 </section>
 
-<section data-markdown data-audio-src="audio/slide02.wav">
-Islands with 3 of the 10 Most Costly IAS Recorded in GBIF
 
-* Hawaiian Islands
-	* Hawai'i (*Aedes, Felis catus, Rattus/Mus*)
-	* Kaua'i (*Aedes, Felis catus, Rattus/Mus*)
-	* Lana'i (*Aedes, Felis catus, Rattus/Mus*)
-	* Maui (*Aedes, Felis catus, Rattus/Mus*)
-* Mariana Islands
-	* Guam (*Aedes, Boiga irregularis, Rattus/Mus*)
-	* Saipan (*Aedes, Felis catus, Rattus/Mus*)
+<section data-audio-src="audio/slide02.wav">
+<h3>Islands with 3 of the 10 Most Costly IAS Recorded in GBIF</h3>
+<ul>
+	<li>Hawaiian Islands</li>
+		<ul>
+			<li><span id="cyan">Hawai'i</span> (<em>Aedes, Felis catus, Rattus/Mus</em>)</li>
+		  <li><span id="cyan">Kaua'i</span> (<em>Aedes, Felis catus, Rattus/Mus</em>)</li>
+		  <li><span id="cyan">Lana'i</span> (<em>Aedes, Felis catus, Rattus/Mus</em>)</li>
+		  <li><span id="cyan">Maui</span> (<em>Aedes, Felis catus, Rattus/Mus</em>)</li>
+		</ul>
+  <li>Mariana Islands</li>
+		<ul>
+			<li><span id="cyan">Guam</span> (<em>Aedes, Boiga irregularis, Rattus/Mus</em>)</li>
+			<li><span id="cyan">Saipan</span> (<em>Aedes, Felis catus, Rattus/Mus</em>)</li>
+		</ul>
+</ul>
 </section>
 
-<section data-markdown data-audio-src="audio/slide02.wav">
-Islands with 3 of the 10 Most Costly IAS Recorded in GBIF (continued)
 
-* Galapagos Islands
-	* Floreana (*Aedes, Felis catus, Rattus/Mus*)
-	* Isabela (*Aedes, Felis catus, Rattus/Mus*)
-* Solomon Islands
-	* Guadalcanal (*Aedes, Felis catus, Rattus/Mus*)
+<section data-audio-src="">
+<h3>Islands with 3 of the 10 Most Costly IAS Recorded in GBIF (continued)</h3>
+<ul>
+	<li>Galapagos Islands</li>
+	<ul>
+		<li><span id="cyan">Floreana</span> (<em>Aedes, Felis catus, Rattus/Mus</em>)</li>
+		<li><span id="cyan">Isabela</span> (<em>Aedes, Felis catus, Rattus/Mus</em>)</li>
+	</ul>
+	<li>Solomon Islands</li>
+	<ul>
+		<li><span id="cyan">Guadalcanal</span> (<em>Aedes, Felis catus, Rattus/Mus</em>)</li>
+	</ul>
+</ul>
 </section>
+
 
 <section>
-<h3 id="cyan">Conclusion</h3>
+<h3>Conclusion</h3>
 <ul>
 <li>The GBIF database had Guam occurrence records for 3 of the <span id="cyan">Top Ten Most Costly Invasive Species</span>.</li>
 <li>Only 1 of 149 Pacific islands, the 'Big Island' of Hawaii,  had a higher number of occurrence records than Guam for IAS in the Top Ten list.</li>
 <ul>
 </section>
-
-<section>
-<h3 id="cyan">Discussion</h3>
-Problems.
-</section>
-
-<section data-markdown>
-# h1
-## h2
-### h3
-#### h4
-##### h5
-###### h6
-
-A paragraph with some text and a [link](http://hakim.se).
-</section>
-
-<section>
-Slide 2
-</section>
-
-<section data-markdown>
-## Slide 3
-</section>
-
-
-
 
 
 			</div>
