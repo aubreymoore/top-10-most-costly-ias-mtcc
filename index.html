@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
+		<link rel="stylesheet" href="custom.css">
+	</head>
+	<body>
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+<section data-markdown>
+## How Bad is Guam's Invasive Species Problem?
+#### A ~~Global~~ Pacific-wide Perspective
+**[Aubrey Moore](mailto://aubreymoore@triton.uog.edu), University of Guam**
+</section>
+
+</section>
+
+<section data-markdown data-audio-src="audio/slide01.wav">
+#### Top 100 World's Worst Invasive Species
+#### xx (xx%) recorded from Guam
+![top100](images/guamtop100-5.5i.svg)
+</section>
+
+<section data-markdown data-audio-src="audio/slide02.wav">
+#### Top 10 World's Most Costly Invasive Species
+#### 5 (50%) recorded from Guam
+![plot](images/5-annotated-5.5i.svg)
+</section>
+
+<section data-audio-src="">
+<h3 id="cyan">How Does Guam Compare to Other Pacific Islands?</h3>
+
+<p style="text-align:left;">We can search islands for records of the <span id="cyan">Top 10 Most Costly IAS</span> on other Pacific islands using the Biodiversity Information Facility (<span id="cyan">GBIF</span>) database.</p>
+</section>
+
+<section data-audio-src="">
+<h3 id="cyan">How Can We Search GBIF?</h3>
+<p style="text-align:left">
+from pygbif import occurrences as occ<br>
+occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span>, limit=0)['count']<br>
+</p>
+</section>
+
+<section data-audio-src="">
+<h3 id="cyan">Which Pacific Islands Should We Search?</h3>
+</section>
+
+
+
+
+
+<section data-markdown data-audio-src="audio/slide02.wav">
+| No. of Taxa from the Top 10 Most Costly IAS Recorded in GBIF | No. of Islands |
+|:------------------------------------------:|:--------------:|
+|                      5                     |        1       |
+|                      3                     |        9       |
+|                      2                     |       26       |
+|                      1                     |       42       |
+|                      0                     |       71       |
+</section>
+
+<section data-markdown data-audio-src="audio/slide02.wav">
+Islands with 5 of the 10 Most Costly IAS Recorded in GBIF
+
+* Hawaiian Islands
+	* O'ahu (*Aedes, Felis catus, Coptotermes formosanus, Boiga irregularis, Rattus/Mus*)
+</section>
+
+<section data-markdown data-audio-src="audio/slide02.wav">
+Islands with 3 of the 10 Most Costly IAS Recorded in GBIF
+
+* Hawaiian Islands
+	* Hawai'i (*Aedes, Felis catus, Rattus/Mus*)
+	* Kaua'i (*Aedes, Felis catus, Rattus/Mus*)
+	* Lana'i (*Aedes, Felis catus, Rattus/Mus*)
+	* Maui (*Aedes, Felis catus, Rattus/Mus*)
+* Mariana Islands
+	* Guam (*Aedes, Boiga irregularis, Rattus/Mus*)
+	* Saipan (*Aedes, Felis catus, Rattus/Mus*)
+</section>
+
+<section data-markdown data-audio-src="audio/slide02.wav">
+Islands with 3 of the 10 Most Costly IAS Recorded in GBIF (continued)
+
+* Galapagos Islands
+	* Floreana (*Aedes, Felis catus, Rattus/Mus*)
+	* Isabela (*Aedes, Felis catus, Rattus/Mus*)
+* Solomon Islands
+	* Guadalcanal (*Aedes, Felis catus, Rattus/Mus*)
+</section>
+
+<section>
+<h3 id="cyan">Conclusion</h3>
+<ul>
+<li>The GBIF database had Guam occurrence records for 3 of the <span id="cyan">Top Ten Most Costly Invasive Species</span>.</li>
+<li>Only 1 of 149 Pacific islands, the 'Big Island' of Hawaii,  had a higher number of occurrence records than Guam for IAS in the Top Ten list.</li>
+<ul>
+</section>
+
+<section>
+<h3 id="cyan">Discussion</h3>
+Problems.
+</section>
+
+<section data-markdown>
+# h1
+## h2
+### h3
+#### h4
+##### h5
+###### h6
+
+A paragraph with some text and a [link](http://hakim.se).
+</section>
+
+<section>
+Slide 2
+</section>
+
+<section data-markdown>
+## Slide 3
+</section>
+
+
+
+
+
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+
+		<script src="plugin/audio-slideshow/plugin.js"></script>
+		<script src="plugin/audio-slideshow/recorder.js"></script>
+		<script src="plugin/audio-slideshow/RecordRTC.js"></script>
+
+
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealAudioSlideshow],
+				audio: {
+					prefix: 'audio/', 	// audio files are stored in the "audio" folder
+					suffix: '.ogg',		// audio files have the ".ogg" ending
+					textToSpeechURL: null,  // the URL to the text to speech converter
+					defaultNotes: false, 	// use slide notes as default for the text to speech converter
+					defaultText: true, 	// use slide text as default for the text to speech converter
+					advance: -10, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+					autoplay: true,	        // automatically start slideshow
+					defaultDuration: 5,	// default duration in seconds if no audio is available
+					defaultAudios: true,	// try to play audios with names such as audio/1.2.ogg
+					playerOpacity: 0.05,	// opacity value of audio player if unfocused
+					playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
+					startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
+				},
+
+			});
+		</script>
+	</body>
+</html>
