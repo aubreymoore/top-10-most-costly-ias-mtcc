@@ -1,0 +1,1 @@
+To see how Guam ranks, we can use query the GBIF database to get the number of taxa from the Top 10 list occur on each island.

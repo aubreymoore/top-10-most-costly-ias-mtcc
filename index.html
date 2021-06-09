@@ -31,7 +31,7 @@
 
 
 <!-- SLIDE HIDDEN
-<section data-markdown data-audio-src="audio/slide01.wav">
+<section data-markdown data-audio-src="audio/slide01.mp3">
 #### Top 100 World's Worst Invasive Species
 #### xx (xx%) recorded from Guam
 ![top100](images/guamtop100-5.5i.svg)
@@ -45,73 +45,73 @@
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-01.wav">
+<section data-markdown data-audio-src="audio/slide01-01.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-01.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-02.wav">
+<section data-markdown data-audio-src="audio/slide01-02.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-02.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-03.wav">
+<section data-markdown data-audio-src="audio/slide01-03.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-03.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-04.wav">
+<section data-markdown data-audio-src="audio/slide01-04.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-04.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-05.wav">
+<section data-markdown data-audio-src="audio/slide01-05.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-05.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-06.wav">
+<section data-markdown data-audio-src="audio/slide01-06.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-06.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-07.wav">
+<section data-markdown data-audio-src="audio/slide01-07.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-07.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-08.wav">
+<section data-markdown data-audio-src="audio/slide01-08.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-08.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-09.wav">
+<section data-markdown data-audio-src="audio/slide01-09.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-09.svg)
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide01-10.wav">
+<section data-markdown data-audio-src="audio/slide01-10.mp3">
 #### Top 10 world's most costly invasive species
 ![](images/5-annotated-5.5i-10.svg)
 </section>
 
 
-<section data-audio-src="audio/slide02.wav">
-<h4>How do we compare Guam compare to other Pacific islands?</h4>
-<p style="text-align:left;">We can search islands for records of the <span id="cyan">Top 10 Most Costly Invasive Species</span> on other Pacific islands using the Biodiversity Information Facility (<span id="cyan">GBIF</span>) database.</p>
+<section data-audio-src="audio/slide02.mp3">
+<h4>How can we compare Guam to other Pacific islands?</h4>
+<p style="text-align:left;">To see how Guam ranks, we can query the the Global Biodiversity Information Facility database to count the number of taxa from the Top 10 list occurr on each island.</p>
 </section>
 
 
-<section data-audio-src="audio/slide03.wav">
+<section data-audio-src="audio/slide03.mp3">
 <h4>How can we search GBIF?</h4>
 <p style="text-align:left">
 from pygbif import occurrences as occ<br>
@@ -120,7 +120,7 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide04.wav">
+<section data-markdown data-audio-src="audio/slide04.mp3">
 #### Which Pacific islands should we search?
 * 149 islands greater than one-tenth the size of Guam
 * Data source: Nunn *et al.* (2016)
@@ -128,20 +128,25 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 </section>
 
 
-<section data-markdown data-audio-src="audio/slide05.wav">
-#### Results Summary
-| No. of Taxa from the Top 10 Most Costly IAS Recorded in GBIF | No. of Islands |
-|:------------------------------------------------------------:|:--------------:|
-|                      5                                       |        1       |
-|                      3                                       |        9       |
-|                      2                                       |       26       |
-|                      1                                       |       42       |
-|                      0                                       |       71       |
+<section data-markdown data-audio-src="audio/slide04a.mp3">
+#### SEARCH
 </section>
 
 
-<section data-audio-src="audio/slide06.wav">
-<h4>Islands with 5 of the 10 most costly invasive species recorded in GBIF</h3>
+<section data-markdown data-audio-src="audio/slide05.mp3">
+#### Results Summary
+| No. of Taxa from the Top 10 Most Costly IAS Recorded in GBIF | No. of Islands | Rank |
+|:------------------------------------------------------------:|--------------:|------:|
+|                      5                                       |        1       |149.0 |
+|                      3                                       |        9       |144.0 |
+|                      2                                       |       26       |126.5 |
+|                      1                                       |       42       |92.5  |
+|                      0                                       |       71       |36.0  |
+</section>
+
+
+<section data-audio-src="audio/slide06.mp3">
+<h4>Islands with 5 of the 10 most costly invasive species recorded in GBIF (rank: 149 of 149)</h3>
 <ul>
 	<li>Hawaiian Islands</li>
 	<ul>
@@ -151,8 +156,8 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 </section>
 
 
-<section data-audio-src="audio/slide07.wav">
-<h4>Islands with 3 of the 10 most costly invasive species recorded in GBIF</h4>
+<section data-audio-src="audio/slide07.mp3">
+<h4>Islands with 3 of the 10 most costly invasive species recorded in GBIF (rank: 144 of 149)</h4>
 <ul>
 	<li>Hawaiian Islands</li>
 		<ul>
@@ -170,8 +175,8 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 </section>
 
 
-<section data-audio-src="audio/slide08.wav">
-<h4>Islands with 3 of the 10 most costly invasivspecies recorded in GBIF (continued)</h4>
+<section data-audio-src="audio/slide08.mp3">
+<h4>Islands with 3 of the 10 most costly invasivspecies recorded in GBIF (rank: 144 of 149) (continued)</h4>
 <ul>
 	<li>Galapagos Islands</li>
 	<ul>
@@ -186,59 +191,68 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 </section>
 
 
-<section data-audio-source="audio/slide09.wav">
+<section data-audio-source="audio/slide09.mp3">
 <h4>Conclusion</h4>
 <ul>
-<li>The GBIF database had Guam occurrence records for 3 of the <span id="cyan">Top Ten Most Costly Invasive Species</span>.</li>
-<li>Only 1 of 149 Pacific islands, the 'Big Island' of Hawaii,  had a higher number of occurrence records than Guam for IAS in the Top Ten list.</li>
+<li>The GBIF database had Guam occurrence records for 3 of the <span id="cyan">Top Ten Most Costly Invasive Species</span>, tied with 8 other islands.</li>
+<li>Only 1 of 149 Pacific islands, the 'Big Island' of Hawaii, had a higher number of occurrence records than Guam for IAS in the Top Ten list.</li>
 <ul>
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide10.wav">
+<section data-markdown data-audio-source="audio/slide10.mp3">
 	#### GBIF problem 1: the database is incomplete
 	* There are no records for very common species on many islands.
-	* Example: There are 0 records for *Felis catus* or *Coptotermes formosanus* on Guam.
-	* This may be the result of low sampling effort on smaller islands.
+	* Example: There are 0 records for *Felis catus* or *Coptotermes formosanus* from Guam.
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide11.wav">
+<section data-markdown data-audio-source="audio/slide11.mp3">
 	#### GBIF problem 2: occurence records include species which are native on some islands and invasive on others
 	* Example: There are records for *Boiga irregularis* from islands of Papua New Guinea and the Solomons. *B. irregularis* is native to these islands and not considered to be an invasive species.
 	* These records were not included in my analysis.
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide12.wav">
-	#### GBIF problem 3: occurence records include species that have been inteception or eradicated
+<section data-markdown data-audio-source="audio/slide12.mp3">
+	#### GBIF problem 3: occurence records include species that have been intecepted or eradicated
 	* Example: There is 1 record for *Boiga irregularis* from O'ahu. This record is probably from an interception.
 	* This record was included in my analysis.
 </section>
 
-<section data-markdown data-audio-source="audio/slide13.wav">
+
+<section data-markdown data-audio-source="audio/slide12a.mp3">
+	#### GBIF problem 4: there may be a size bias because of low sampling effort and under-reporting of invasive species on smaller islands.
+</section>
+
+
+<section data-audio-source="audio/end.mp3">
+	<h1><span id="cyan">End</span></h1>
+	<ul>
+		<li>Thank you for your attention.</i>
+		<li>References follow.</i>
+	</ul>
+</section>
+
+
+<section data-markdown data-audio-source="audio/5sec-silence.mp3">
 	#### Reference 1
 	* Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, et al. High and rising economic costs of biological invasions worldwide. Nature. 2021 Mar 31;1–6.
 	<a href="https://www.biodiversitydynamics.fr/wp-content/uploads/2021/03/InvaCostNature.pdf">https://www.biodiversitydynamics.fr/wp-content/uploads/2021/03/InvaCostNature.pdf</a>
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide13.wav">
+<section data-markdown data-audio-source="audio/5sec-silence.mp3">
 	#### Reference 2
 	* Nunn, Patrick, Lalit Kumar, Ian Eliot, and Roger Mclean. “Classifying Pacific Islands.” <i>Geoscience Letters</i> 3 (December 1, 2016).
 	<a href="https://doi.org/10.1186/s40562-016-0041-8">https://doi.org/10.1186/s40562-016-0041-8</a>.
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide13.wav">
+<section data-markdown data-audio-source="audio/5sec-silence.mp3">
 	#### Reference 3
 	* Moore, A. 2021. How bad is Guam's invasive species status from a global perspective?.
 	[https://github.com/aubreymoore/worlds-most-costly-ias-on-guam/blob/main/worlds-most.md](https://github.com/aubreymoore/worlds-most-costly-ias-on-guam/blob/main/worlds-most.md)
-</section>
-
-
-<section data-markdown data-audio-source="audio/slide14.wav">
-	# The End
 </section>
 
 
@@ -271,11 +285,11 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 					textToSpeechURL: null,  // the URL to the text to speech converter
 					defaultNotes: false, 	// use slide notes as default for the text to speech converter
 					defaultText: false, 	// use slide text as default for the text to speech converter
-					advance: 0, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
+					advance: 10, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
 					autoplay: true,	        // automatically start slideshow
-					defaultDuration: 5,	// default duration in seconds if no audio is available
-					defaultAudios: false,	// try to play audios with names such as audio/1.2.ogg
-					playerOpacity: 0.05,	// opacity value of audio player if unfocused
+					defaultDuration: 1,	// default duration in seconds if no audio is available
+					defaultAudios: true,	// try to play audios with names such as audio/1.2.ogg
+					playerOpacity: 1,	// opacity value of audio player if unfocused
 					playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
 					startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
 				},

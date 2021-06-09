@@ -1,0 +1,41 @@
+Taxon Notes
+
+slide01-01.txt
+
+Aedes is a genus of mosquitoes. Members of this genus are vectors of arboviruses which include dengue, zika, West Nile and many others. Guam has 4 species of Aedes: albopictus, hensilli, pandani and guamensis. Aedes aegypti was previously present, but this is one of the very few invasive species successfully eradicated from the island.
+
+slide01-02.txt
+
+Rattus and Mus, rats and mice. 4 species of Rattus and 1 species of Mus have been reported from Guam.
+
+slide01-03.txt
+
+Felis catus, domestic cats, are abundant on Guam in domestic and feral populations. However, GBIF contains no Guam records for cats.
+
+slide01-04.txt
+
+Coptotermes formosanus, the Formosan subterranean termite, has been reported from Guam. However, a survey by Nan-yo Su found only Coptotermes gestroi he suggested that all previous identifications of Coptotermes formosanus from Guam were erroneous.
+
+slide01-05.txt
+
+Solenopsis invicta, the red imported fire ant, is not reported from Guam. However, we have Solenopsis geminata, the tropical fire ant.
+
+slide01-06.txt
+
+Boiga irregularis, the brown treesnake, is abundant on Guam. Occurrence on Guam represents the only documented reproductive population outside the native range of this snake. BTS is unique in this figure as being the only taxon in which management costs exceed all other costs.
+
+slide01-07.txt
+
+Anthonomus grandis, the cotton boll weevil, is not reported from Guam.
+
+slide01-08.txt
+
+Lymantria dispar, the gypsy moth, is not reported from Guam.
+
+slide01-09.txt
+
+Apis mellifera scutellata, the East African lowland honeybee, is a subspecies of the western honey bee which has been determined to constitute one part of the ancestry of the Africanized bees spreading through America. There is no record of Apis mellifera scutellata on Guam and there is no evidence of Africanization of domestic or feral populations of Apis mellifera on Guam.
+
+slide01-10.txt
+
+Cochliomyia hominivorax, the New World screw-worm fly, is not reported from Guam.
