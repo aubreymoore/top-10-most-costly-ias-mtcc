@@ -22,11 +22,19 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 
+<!--
+<section>
+	To start the slideshow, please click on the little triangle in the audio player control at the bottom of the screen.
+</section>
+-->
+
 
 <section data-markdown data-audio-src="audio/slide00.mp3">
 ## How Bad is Guam's Invasive Species Problem?
 ### A ~~Global~~ Pacific-wide Perspective
 **[Aubrey Moore](mailto://aubreymoore@triton.uog.edu) University of Guam**
+
+To sart the show, please press the litle triangle below.
 </section>
 
 
@@ -176,7 +184,7 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 
 
 <section data-audio-src="audio/slide08.mp3">
-<h4>Islands with 3 of the 10 most costly invasivspecies recorded in GBIF (rank: 144 of 149) (continued)</h4>
+<h4>Islands with 3 of the 10 most costly invasive species recorded in GBIF (rank: 144 of 149) (continued)</h4>
 <ul>
 	<li>Galapagos Islands</li>
 	<ul>
@@ -191,7 +199,7 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 </section>
 
 
-<section data-audio-source="audio/slide09.mp3">
+<section data-audio-src="audio/slide09.mp3">
 <h4>Conclusion</h4>
 <ul>
 <li>The GBIF database had Guam occurrence records for 3 of the <span id="cyan">Top Ten Most Costly Invasive Species</span>, tied with 8 other islands.</li>
@@ -200,33 +208,33 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide10.mp3">
+<section data-markdown data-audio-src="audio/slide10.mp3">
 	#### GBIF problem 1: the database is incomplete
 	* There are no records for very common species on many islands.
 	* Example: There are 0 records for *Felis catus* or *Coptotermes formosanus* from Guam.
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide11.mp3">
+<section data-markdown data-audio-src="audio/slide11.mp3">
 	#### GBIF problem 2: occurence records include species which are native on some islands and invasive on others
 	* Example: There are records for *Boiga irregularis* from islands of Papua New Guinea and the Solomons. *B. irregularis* is native to these islands and not considered to be an invasive species.
 	* These records were not included in my analysis.
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide12.mp3">
+<section data-markdown data-audio-src="audio/slide12.mp3">
 	#### GBIF problem 3: occurence records include species that have been intecepted or eradicated
 	* Example: There is 1 record for *Boiga irregularis* from O'ahu. This record is probably from an interception.
 	* This record was included in my analysis.
 </section>
 
 
-<section data-markdown data-audio-source="audio/slide12a.mp3">
+<section data-markdown data-audio-src="audio/slide12a.mp3">
 	#### GBIF problem 4: there may be a size bias because of low sampling effort and under-reporting of invasive species on smaller islands.
 </section>
 
 
-<section data-audio-source="audio/end.mp3">
+<section data-audio-src="audio/end.mp3">
 	<h1><span id="cyan">End</span></h1>
 	<ul>
 		<li>Thank you for your attention.</i>
@@ -235,21 +243,21 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 </section>
 
 
-<section data-markdown data-audio-source="audio/5sec-silence.mp3">
+<section data-markdown data-audio-src="audio/5sec-silence.mp3">
 	#### Reference 1
 	* Diagne C, Leroy B, Vaissière A-C, Gozlan RE, Roiz D, Jarić I, et al. High and rising economic costs of biological invasions worldwide. Nature. 2021 Mar 31;1–6.
 	<a href="https://www.biodiversitydynamics.fr/wp-content/uploads/2021/03/InvaCostNature.pdf">https://www.biodiversitydynamics.fr/wp-content/uploads/2021/03/InvaCostNature.pdf</a>
 </section>
 
 
-<section data-markdown data-audio-source="audio/5sec-silence.mp3">
+<section data-markdown data-audio-src="audio/5sec-silence.mp3">
 	#### Reference 2
 	* Nunn, Patrick, Lalit Kumar, Ian Eliot, and Roger Mclean. “Classifying Pacific Islands.” <i>Geoscience Letters</i> 3 (December 1, 2016).
 	<a href="https://doi.org/10.1186/s40562-016-0041-8">https://doi.org/10.1186/s40562-016-0041-8</a>.
 </section>
 
 
-<section data-markdown data-audio-source="audio/5sec-silence.mp3">
+<section data-markdown data-audio-src="audio/5sec-silence.mp3">
 	#### Reference 3
 	* Moore, A. 2021. How bad is Guam's invasive species status from a global perspective?.
 	[https://github.com/aubreymoore/worlds-most-costly-ias-on-guam/blob/main/worlds-most.md](https://github.com/aubreymoore/worlds-most-costly-ias-on-guam/blob/main/worlds-most.md)
@@ -288,8 +296,8 @@ occ.search(<span id="cyan">scientificName</span>, <span id="cyan">geometry</span
 					advance: 10, 		// advance to next slide after given time in milliseconds after audio has played, use negative value to not advance
 					autoplay: true,	        // automatically start slideshow
 					defaultDuration: 1,	// default duration in seconds if no audio is available
-					defaultAudios: true,	// try to play audios with names such as audio/1.2.ogg
-					playerOpacity: 1,	// opacity value of audio player if unfocused
+					defaultAudios: false,	// try to play audios with names such as audio/1.2.ogg
+					playerOpacity: 0.25,	// opacity value of audio player if unfocused
 					playerStyle: 'position: fixed; bottom: 4px; left: 25%; width: 50%; height:75px; z-index: 33;', // style used for container of audio controls
 					startAtFragment: false, // when moving to a slide, start at the current fragment or at the start of the slide
 				},
